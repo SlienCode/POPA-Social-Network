@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="650dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Εγγραφή Χρήστη"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            app:srcCompat="@drawable/face" />
+
+
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Ψευδώνυμο"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZαβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ0123456789_"/>
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Κωδικός Πρόσβασης"
+            android:inputType="textPassword"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/passwordConfirmInput"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Επιβεβαίωση Κωδικού Πρόσβασης"
+            android:inputType="textPassword"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/white"
+            android:text="ΥΠΟΒΟΛΗ" />
+
+    </LinearLayout>
+
+</RelativeLayout>

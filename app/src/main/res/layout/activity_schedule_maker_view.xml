@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".ScheduleMaker_View">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:background="@drawable/back" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="ΑΠΟΘΗΚΕΥΣΗ" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@color/burgundy_500"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="ΜΑΘΗΜΑ"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ΔΕΥΤΕΡΑ"
+                    android:textColor="@android:color/white"
+                    android:padding="10sp"
+                    android:textSize="10sp"
+                    android:layout_weight="2"
+                    android:background="@color/burgundy_500"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ΤΡΙΤΗ"
+                    android:textColor="@android:color/white"
+                    android:padding="10sp"
+                    android:textSize="10sp"
+                    android:layout_weight="2"
+                    android:background="@color/burgundy_500"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ΤΕΤΑΡΤΗ"
+                    android:textColor="@android:color/white"
+                    android:padding="10sp"
+                    android:textSize="10sp"
+                    android:layout_weight="2"
+                    android:background="@color/burgundy_500"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ΠΕΜΠΤΗ"
+                    android:textColor="@android:color/white"
+                    android:padding="10sp"
+                    android:textSize="10sp"
+                    android:layout_weight="2"
+                    android:background="@color/burgundy_500"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ΠΑΡΑΣΚΕΥΗ"
+                    android:textColor="@android:color/white"
+                    android:padding="10sp"
+                    android:textSize="10sp"
+                    android:layout_weight="2"
+                    android:background="@color/burgundy_500"
+                    android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "131903269125",
+    "firebase_url": "https://popa-44862-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "popa-44862",
+    "storage_bucket": "popa-44862.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131903269125:android:856266e296c70b5d79ef6c",
+        "android_client_info": {
+          "package_name": "com.example.POPA"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131903269125-sq2748cv39bciebdvote1817ur7c2jrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7qCXFTc_MXNsCOVnGkKZCv-ipLvTT8a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131903269125-sq2748cv39bciebdvote1817ur7c2jrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
